@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.4'
 
 # Use sqlite3 as the database for Active Record
+gem 'tilt', '1.3.4'
 
 group :production do
   gem 'pg'
