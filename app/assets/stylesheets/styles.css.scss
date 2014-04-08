@@ -1,8 +1,13 @@
 @import 'bootstrap';
 
+
 body { padding-top: 60px; }
 
-$btn-primary-bg: green;
+.btn-primary:hover,
+.btn-primary {
+  background: green;
+  border: green
+}
 
 
 .footer {

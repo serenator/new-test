@@ -1,3 +1,6 @@
+<% if user_signed_in? %>
+ <h1>You're Logged in.</h1>
+<% else %>
 <div class="jumbotron">
 <h1>Welcome to Baby Pictures</h1>
 <p>You've found the home page for 
@@ -6,9 +9,11 @@
 </p>
 
 <p>
-	<%= link_to "Sign Up Now", "http://yahoo.com", class:"btn btn-primary btn-lg "%>
+	<%= link_to "Sign Up Now", new_user_registration_path, class:"btn btn-primary btn-lg " %>
 </p>
 
 </div>
+<% end %>
+
 
 
